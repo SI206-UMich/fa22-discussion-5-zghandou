@@ -63,7 +63,8 @@ class TestAllMethods(unittest.TestCase):
 
 	## Check to see whether count_a works
 	def test_count_a(self):
-		pass
+		print(self.count_a.count('a'))
+
 
 
 	## Check to see whether you can add an item to the warehouse

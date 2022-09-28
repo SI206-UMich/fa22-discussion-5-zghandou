@@ -101,6 +101,7 @@ class TestAllMethods(unittest.TestCase):
 		w3 = Warehouse([self.item1,self.item2])
 		self.assertEqual(w3.get_max_price(),self.item1)
 
+#"ran 4 tests" means each code chunck ran for each funtion. test cases are not counted by single lines
 		
 
 def main():

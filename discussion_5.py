@@ -63,6 +63,7 @@ class Warehouse:
 
 
 # Tests
+#note: test cases are what the code should do/ should equal. the answer is in the test case which may make writing the actual function easier. 
 class TestAllMethods(unittest.TestCase):
 
 	# SetUp -- we create a bunch of items for you to use in your tests.
